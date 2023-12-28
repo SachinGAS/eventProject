@@ -1,0 +1,515 @@
+ 
+.navgationbar{
+    background-image: url(./img/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation{
+    background-color:transparent;
+}
+.brand-img{
+    width: 200px;
+    height: 100px;
+}
+.navigation li {
+    margin: 10px;
+}
+.navigation li a{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+}
+.bcm-spnsr{
+    border: 2px solid #cd028c;
+    border-radius: 10px;
+}
+.by-tict{
+    border: 2px solid #cd028c;
+    border-radius: 10px;
+}
+.navigation li a:hover:not(.bcm-spnsr, .by-tict){
+    color: #cd028c;
+}
+.bcm-spnsr:hover{
+    background-color:#cd028c ;
+    color: white;
+}
+.by-tict:hover{
+    background-color:#cd028c;
+    color: white;
+}
+.larg-name{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight:bolder ;
+    color: white;
+}
+.money-expo{
+  text-transform: capitalize; 
+  font-size: 20px; 
+  color: white; 
+}
+.stock{
+    text-transform: capitalize; 
+    font-size: 20px;  
+    margin: 10px;
+    margin-left: 0px;
+    color: white;
+} 
+.venue{
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+.date{
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 10px;
+    background-color: #cd028c;
+    color: white;
+}
+.venue-conv{
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 10px;
+    background-color: #cd028c;
+    color: white;
+}
+.sponr-tikt{
+    display: flex;
+    flex-direction: row;
+   
+}
+.sponr-tikt a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.bcm-spnsor{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 8px;
+    color: white;
+   
+}
+.by-tickt{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 8px;
+    color: white;
+   
+}
+.bcm-spnsor:hover{
+    background-color:#cd028c;
+    color: rgb(255, 255, 255);
+}
+.by-tickt:hover{
+    background-color: #cd028c;
+    color: white;
+}
+.locted-log{
+    display: flex;
+    flex-direction: row;
+    height:80px ;
+    
+}
+.log-atteched{
+    background-color: rgb(18 18 18 / 90%);
+}
+.locted{
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight:100px;
+    color: white;
+    margin: 10px;
+    width: 100px;
+    height: 60px;
+    border-right: 2px solid white ;
+    
+}
+.affili-logo{
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+}
+.pay-img{
+    border-left: 2px solid white;
+    width: 150px;
+    height: 60px;
+    margin: 10px;
+}
+.img-compe{
+    margin: 40px;
+}
+.exi-conf{
+    display: flex;
+    flex-direction: row;
+   
+}
+.exi-conf a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #cd028c;
+
+}
+.exi-link {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 8px;
+    color:#cd028c;
+}
+.exi-link:hover{
+    background-color: #cd028c;
+    color:white;
+}
+.conf-link{
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #cd028c;  
+    border-radius: 8px;
+    color:#cd028c;
+}
+.conf-link:hover{
+    background-color:#cd028c;
+    color: white;
+}
+.title{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #cd028c;
+}
+.sub-title{
+    color: #000;
+}
+.paargrap{
+    width: 100%;
+    font-size: 18px;
+}
+.why-to-attend{
+    background-image: url(./img/image_2023_02_20T11_13_33_385Z.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.why-heading{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+.networking{
+    background-color: #0000007d;
+    border: 1px solid black;
+    height: 420px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.net-img{
+    padding: 25px;
+    margin-top:10px ;
+    justify-items: center;
+   
+    
+}
+.net-head{
+    text-transform: uppercase;
+    color: #cd028c;
+}
+.net-paragrap{
+    color: white;
+    text-transform: capitalize;
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+}
+.mutualfunds{
+    background-image: url(./img/image_2023_02_20T11_13_33_385Z.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mutual-heading{
+    color: #cd028c;
+    text-transform: uppercase;
+}
+.mutual-sub-heading{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.stocks{
+    background-image:url(./img/BG-2.jpg) ;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black ;
+    border-radius: 40px;
+    height: 400px;
+    margin-bottom:20px ;
+    
+}
+.img-stock{
+    width: 65px;
+    height: 65px;
+}
+.stocks-img{
+    padding-top: 50px;
+    object-fit: contain;
+    text-align: center;
+}
+.stock-name{
+    padding-top: 15px;
+    color:#cd028c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.stock-paragrap{
+    padding: 20px;
+    width: 100%;
+    padding-top: 10px;
+    background-color:#0000;
+}
+.vist-img{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.vist{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+.visit-list{
+    color: #000000;
+    font-weight:inherit;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.company-member{
+    margin: 30px;
+}
+.speakers-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#cd028c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.caroul-bimg{
+    background-image: url(./img/image_\ bg2023_02_21T09_32_50_586Z.png);
+}
+.card-backimg{
+    background-color: transparent;
+}
+.card-img-top{
+    padding: 20px;
+    
+} 
+.card img{
+    border-right: 3px solid #cd028c;
+}
+.card {
+border:none;
+}
+.carousel-inner {
+position: relative;
+width: 99%;
+overflow: hidden;
+}
+.sponsor-heading{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sponsor-sub-heading{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #cd028c;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.dimondsponsr{
+    background-color: #00082e;
+}
+.sponsor-img{
+    width: 100%;
+    height: 140px;
+}
+.sponser-img{
+    margin-bottom: 30px;
+    height: 140px;
+    border: 2px solid #cd028c;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sponser-img:hover{
+    overflow: hidden;
+}
+.overlap:hover{
+    display: block;
+    overflow: visible;
+}
+.present-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #cd028c ;
+}
+.present-at{
+    background-image: url(./img/BG-2.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-box{
+    position: relative;
+    width: 100%;
+    height:150px;
+    width: 100%;
+    height: 150px;
+    border-radius: 0;
+    position: relative;
+   
+}
+.product-box p{
+    position: absolute;
+   font-weight: bolder;
+    top:45px;
+    padding-top: 20px;
+   width: 100%;
+   color: white;
+   text-transform: uppercase;
+   position: absolute;
+}
+.produt-focus{
+    background-image: url(./img/image_2023_02_20T11_13_33_385Z.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    margin-bottom: 20px;
+}
+.produt-heading{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #cd028c;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.attend-big{
+    background-image: url(./img/image_2023_02_20T11_13_33_385Z.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.atteding-heading{
+    font-weight: 700;
+    color: white;
+}
+.conferenc-one{
+    border-radius:20px ;
+    padding: 30px;
+    background-color: rgb(0 0 0 / 40%);
+}
+.agenda-full{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgb(1 5 51 / 41%);
+}
+.dat-conf{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    color: #cd028c; 
+}
+.cof-one {
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.conferenc-two{
+    margin-top: 100px;
+    border-radius:20px ;
+    padding: 30px;
+    background-color: rgb(0 0 0 / 40%);
+}
+.ognagised-by{
+    background-image: url(./img/BG-2.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.orginised-logo{
+    margin: 30px;
+}
+.addres{
+    padding: 20px;
+}
+.addres p{
+    font-weight: 600;
+}
+.organised-heading{
+    margin: 30px;
+}
+.organised-heading h1{
+    font-weight: bolder;
+}
+.organised-heading p{
+    width: 100%;
+}
+.venu-lock{
+    font-weight: bolder;
+}
+.artboard-img{
+    padding-top: 50px;
+}
+.logo-oganised{
+    background-image: url(./img/BG-2.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color:#000;
+}
+.footer-section h5{
+    font-weight: bold;
+    color:#cd028c; 
+}
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footer-section ul li{
+    list-style-type: none;
+    left: 0;
+}
+.footer-section ul{
+    padding-left: 0;
+}
+.footer-section ul{
+    color: white;
+    font-weight: bold;
+}
+.footer-section .mail-id{
+    font-size: 15px;
+}
+.navigation-head{
+    background-color: #00082e;
+}
+.venu-con strong{
+    color:#cd028c;
+}
